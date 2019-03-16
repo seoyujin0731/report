@@ -1,9 +1,11 @@
 
+
 package report;
 
 import java.util.Scanner;
 
 public class Calculator {
+	
 
 	public static void main(String[] args) {
 
@@ -13,7 +15,7 @@ public class Calculator {
 		double b = sc.nextDouble();
 
 		switch (x) {
-		
+
 		case "+":
 			System.out.println(a + "+" + b + "=" + (a + b));
 			break;
@@ -35,6 +37,7 @@ public class Calculator {
 			break;
 
 		}
+		sc.close();
 	}
 
 }
